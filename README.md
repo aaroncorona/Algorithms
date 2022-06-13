@@ -31,7 +31,7 @@ Solving algorithm questions on Leetcode using Java.
 <br>
 
 4. **Source to Target** _(weighted graph)_
-  * Problem Description: Use BFS, Dijkstra's algorithm, and additional traversal logic to find the shortest path from any given Source to Target in a graph with weighted edges
+  * Problem Description: Use BFS, Dijkstra's algorithm, and additional traversal logic to find the shortest path from any given Source to Target in a weighted graph.
   * [Solution](https://github.com/aaroncorona/Algorithms/blob/main/SourceToTarget.java)
   * Solution Illustration:
 <img width="400" alt="error" src="https://user-images.githubusercontent.com/31792170/173281565-8a13df82-d2cc-4064-b8bf-fdf078dd6ab3.png">
