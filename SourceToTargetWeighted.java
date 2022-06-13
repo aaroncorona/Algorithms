@@ -4,7 +4,7 @@ import java.util.*;
 @SuppressWarnings("unchecked")
 
 // Implement Dijkstra's shortest path algorithm
-public class SourceToTarget {
+public class SourceToTargetWeighted {
 
     // Non-Static variables that refer to a specific graph. Each obj should get their own. This makes them public
     // Number of total nodes on the graph (node and vertex are interchangable words)
@@ -21,7 +21,7 @@ public class SourceToTarget {
     public int pathShortestWeight;
 
     // Constructor
-    public SourceToTarget(int vertices) {
+    public SourceToTargetWeighted(int vertices) {
         // Establish parameter
         this.vertices = vertices;
         // Create the object specific arrays (which need a vertex param, shouldn't be static)
@@ -177,7 +177,7 @@ public class SourceToTarget {
     }
 
     public static void main(String[] args)  {
-        SourceToTarget g = new SourceToTarget(8);
+        SourceToTargetWeighted g = new SourceToTargetWeighted(8);
 
         // Build the graph, log it in lists
         g.addEdge(0, 1, 10, g.nodes, g.nodeEdgeWeights);
