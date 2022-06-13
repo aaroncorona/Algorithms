@@ -13,7 +13,15 @@ Solving algorithm questions on Leetcode using Java.
 
 <br>
 
-2. **Word Ladder - Source to Target** _(unweighted graph)_
+2. **Single-Source Shortest Path (SSSP) through Graph** _(weighted graph)_
+  * Problem [Description](https://leetcode.com/problems/network-delay-time/): Find the minimum weight to visit all nodes in a weighted graph.
+  * [Solution](https://github.com/aaroncorona/Algorithms/blob/main/ShortestPathThroughGraph.java)
+  * Solution Illustration:
+<img width="400" alt="error" src="https://user-images.githubusercontent.com/31792170/173283660-4fef45a3-ab27-406f-9bea-e0393f6dbeae.png">
+
+<br>
+
+3. **Word Ladder - Source to Target** _(unweighted graph)_
   * Problem [Description](https://leetcode.com/problems/word-ladder/): Given two words and a dictionary wordList, return the number of words in the shortest transformation sequence from beginWord to endWord, or 0 if no such sequence exists.
   * [Solution](https://github.com/aaroncorona/Algorithms/blob/main/WordLadder.java)
   * Solution Illustration:
@@ -22,11 +30,20 @@ Solving algorithm questions on Leetcode using Java.
 
 <br>
 
-3. **Source to Target** _(weighted graph)_
+4. **Source to Target** _(weighted graph)_
   * Problem Description: Use BFS, Dijkstra's algorithm, and additional traversal logic to find the shortest path from any given Source to Target in a graph with weighted edges
   * [Solution](https://github.com/aaroncorona/Algorithms/blob/main/SourceToTarget.java)
   * Solution Illustration:
 <img width="400" alt="error" src="https://user-images.githubusercontent.com/31792170/173281565-8a13df82-d2cc-4064-b8bf-fdf078dd6ab3.png">
+
+<br>
+
+5. **Colored Board Winning Paths** 
+  * Problem Description: Use BFS, Dijkstra's algorithm, and additional traversal logic to find the shortest path from any given Source to Target in a graph with weighted edges
+  * [Solution](https://github.com/aaroncorona/Algorithms/blob/main/SourceToTarget.java)
+  * Solution Illustration:
+<img width="400" alt="error" src="https://user-images.githubusercontent.com/31792170/173281565-8a13df82-d2cc-4064-b8bf-fdf078dd6ab3.png">
+
 
 
 
