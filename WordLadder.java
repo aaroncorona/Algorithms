@@ -30,11 +30,9 @@ public class WordLadder {
 
         // BFS to find all word relationships
         while(!queue.isEmpty()) {
-            System.out.println("Queue: " + Arrays.toString(queue.toArray()));
             // First, get the next word on the list and remove it from the queue (FIFO for a BFS)
             currentWord = queue.get(0); 
             queue.remove(0); 
-            System.out.println("currentWord: " + currentWord);
             // Update the path
             path.add(currentWord);
             // Check if we have reached the target
@@ -54,12 +52,7 @@ public class WordLadder {
                 queue.add(nextWords.get(i));
                 pathParent.add(currentWord); // add weight logic here
             }
-    System.out.println("Parents: " + Arrays.toString(pathParent.toArray()));
-    System.out.println("Path:    " + Arrays.toString(path.toArray()));
         }
-    if(!path.contains(target)) { // nowhere else to travel and have not reached the target
-       System.out.println("Invalid dictionary. No possible path to the target.");
-    }
     }
 
     // Function to replace 1 char in 1 word at a given index
