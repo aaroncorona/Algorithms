@@ -1,7 +1,7 @@
 
 import java.util.*;
 
-public class Trie {
+public class Autocomplete {
 
     // Public variables (Trie specific)
     public Node root;
