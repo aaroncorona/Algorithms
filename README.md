@@ -39,11 +39,9 @@ Solving algorithm questions on Leetcode using Java.
 <br>
 
 5. **Colored Board Winning Paths** 
-  * Problem Description: Use BFS, Dijkstra's algorithm, and additional traversal logic to find the shortest path from any given Source to Target in a graph with weighted edges
-  * [Solution](https://github.com/aaroncorona/Algorithms/blob/main/SourceToTarget.java)
+  * Problem Description: The rule of the game is to reach the winning color without touching an opposing color. Find all starting points you can win from, as well as the shortest path to win from a given start point.
+  * [Solution](https://github.com/aaroncorona/Algorithms/blob/main/ColoredBoard.java)
   * Solution Illustration:
-<img width="400" alt="error" src="https://user-images.githubusercontent.com/31792170/173281565-8a13df82-d2cc-4064-b8bf-fdf078dd6ab3.png">
-
-
+<img width="400" alt="error" src="https://user-images.githubusercontent.com/31792170/173285637-bb16d2a2-3f9b-4c02-aac6-26712db35ae1.png">
 
 
