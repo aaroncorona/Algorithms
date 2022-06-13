@@ -135,10 +135,10 @@ public class Trie {
        t1.insert("at");
 
        // Test the functions (optional)
-//       System.out.println("cat word exists? " + t1.wordExists("cat"));
-//       System.out.println("ca word exists? " + t1.wordExists("ca"));
-//       System.out.println("ca prefix exists? " + t1.prefixExists("ca"));
-//       System.out.println("ac prefix exists? " + t1.prefixExists("ac"));
+      System.out.println("cat word exists? " + t1.wordExists("cat"));
+      System.out.println("ca word exists? " + t1.wordExists("ca"));
+      System.out.println("ca prefix exists? " + t1.prefixExists("ca"));
+      System.out.println("ac prefix exists? " + t1.prefixExists("ac"));
 
        // Print out trie map (optional)
 //       System.out.println("nodeChars: " + t1.nodeChars);
