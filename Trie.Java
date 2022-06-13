@@ -9,7 +9,7 @@ public class Autocomplete {
     public LinkedHashMap<Node, Character> nodeChars = new LinkedHashMap<Node, Character>();; // map to char
 
     // Constructor for the Trie 
-    public Trie(char start) {
+    public Autocomplete(char start) {
         // Add a default Node to the Trie
         root = new Node(start);
     }
@@ -125,7 +125,7 @@ public class Autocomplete {
     public static void main(String[] args){
 
        // Create obj
-       Trie t1 = new Trie('!'); // initialize w dummy starting node (root should never be used for a word)
+       Autocomplete t1 = new Autocomplete('!'); // initialize w dummy starting node (root should never be used for a word)
 
        // Insert words (ie create new char nodes)
        t1.insert("cattle");
