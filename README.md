@@ -7,12 +7,26 @@ Solving algorithm questions on Leetcode using Java.
 # ⭐ Problems Solved
 1. **Autocomplete with Trie**
   * Problem [Description](https://leetcode.com/problems/implement-trie-prefix-tree/): Use a Trie data structure to implement an autocomplete search algorithm that adds and searches for words.
-  * Solution [Source Code](https://github.com/aaroncorona/Algorithms/blob/main/Trie.Java)
+  * [Solution](https://github.com/aaroncorona/Algorithms/blob/main/Trie.Java)
   * Solution Illustration:
-<img width="400" alt="trie" src="https://user-images.githubusercontent.com/31792170/173280100-18d4741a-1a24-4514-81ab-45734d85a254.png">
+<img width="400" alt="error" src="https://user-images.githubusercontent.com/31792170/173280100-18d4741a-1a24-4514-81ab-45734d85a254.png">
 
 <br>
 
-2. **Shortest Path from Source to Target** _(weighted graph)_
-  *
+2. **Word Ladder - Source to Target** _(unweighted graph)_
+  * Problem [Description](https://leetcode.com/problems/word-ladder/): Given two words and a dictionary wordList, return the number of words in the shortest transformation sequence from beginWord to endWord, or 0 if no such sequence exists.
+  * [Solution](https://github.com/aaroncorona/Algorithms/blob/main/WordLadder.java)
+  * Solution Illustration:
+<img width="400" alt="error" src="https://user-images.githubusercontent.com/31792170/173282446-a0ba2871-caea-4847-a6da-62ba590add0c.png">
+
+
+<br>
+
+3. **Source to Target** _(weighted graph)_
+  * Problem Description: Use BFS, Dijkstra's algorithm, and additional traversal logic to find the shortest path from any given Source to Target in a graph with weighted edges
+  * [Solution](https://github.com/aaroncorona/Algorithms/blob/main/SourceToTarget.java)
+  * Solution Illustration:
+<img width="400" alt="error" src="https://user-images.githubusercontent.com/31792170/173281565-8a13df82-d2cc-4064-b8bf-fdf078dd6ab3.png">
+
+
 
