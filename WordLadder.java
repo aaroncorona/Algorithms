@@ -13,6 +13,7 @@ public class WordLadder {
     public static String start;
     public static String target;
 
+    // Find the shortest path from source to target by visiting only 1 parent from each level
     public static void getShortestPath() {
         shortestPath.add(target);
         while(!shortestPath.contains(start)){
