@@ -5,8 +5,8 @@ public class WordLadder {
     // Create lists and variables needed 
     public static Set<String> dict = new HashSet<String>();
     public static List<String> queue = new LinkedList<String>(); // FIFO for BFS
-    public static List<String> path = new LinkedList<String>(); // hashset to avoid duplicate choosen words (a traversed word will still appear as 1 char away).
-    public static List<String> pathParent = new LinkedList<String>(); // hashset to avoid duplicate choosen words (a traversed word will still appear as 1 char away).
+    public static List<String> path = new LinkedList<String>(); 
+    public static List<String> pathParent = new LinkedList<String>(); 
     public static List<String> nextWords = new LinkedList<String>(); 
     public static List<String> shortestPath = new LinkedList<String>(); 
     public static String currentWord;
