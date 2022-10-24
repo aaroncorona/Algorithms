@@ -47,7 +47,7 @@ Solving algorithm questions on Leetcode using Java.
 <br>
 
 6. **Binary Tree Inorder Traversal** 
-  * Problem [Description](https://leetcode.com/problems/binary-tree-inorder-traversal/): Create a binary tree and traverse (print) the nodes in order from left to right.
+  * Problem [Description](https://leetcode.com/problems/binary-tree-inorder-traversal/){.external}: Create a binary tree and traverse (print) the nodes in order from left to right.
   * [Solution]()
   * Solution Illustration:
 <img width="400" alt="error" src="">
