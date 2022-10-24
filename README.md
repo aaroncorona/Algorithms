@@ -44,4 +44,12 @@ Solving algorithm questions on Leetcode using Java.
   * Solution Illustration:
 <img width="400" alt="error" src="https://user-images.githubusercontent.com/31792170/173285637-bb16d2a2-3f9b-4c02-aac6-26712db35ae1.png">
 
+<br>
+
+6. **Binary Tree Inorder Traversal** 
+  * Problem [Description](https://leetcode.com/problems/binary-tree-inorder-traversal/): Create a binary tree and traverse (print) the nodes in order from left to right.
+  * [Solution]()
+  * Solution Illustration:
+<img width="400" alt="error" src="">
+
 
